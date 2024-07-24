@@ -5,6 +5,27 @@
     margin: 0;
 }
 
+#github-link {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 40px;
+    width: 40px;
+    z-index: 10;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-image: url("mjplogo.svg");
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.4;
+    transition: all 0.25s;
+}
+
+#github-link:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 6px #efefef;
+}
+
 body {
     font-family: "Roboto Mono", monospace;
     /* with repeating linear gradients build a grid as if the project is laid on graph paper */
